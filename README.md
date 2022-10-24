@@ -18,10 +18,10 @@ Para este reto, se han usado las siguientes tecnologías:
 - Layout / Responsive
 - Componentes / Responsive
 - Animaciones / Complejidad de cada una
-- Funcionalididad
+- Funcionalidad
 - Entrega
 
 ## Parte segunda de la prueba: maqueta
 
-- `npm install` to install the app
-- `npm dev` runs the app
+- `npm install` para instalar la app
+- `npm dev` para correr la app

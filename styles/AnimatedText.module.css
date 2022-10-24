@@ -1,0 +1,72 @@
+.hero__title {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__title .dynamic-text {
+  height: 48px;
+  overflow: hidden;
+}
+
+.dynamic-text div {
+  position: relative;
+  top: 0;
+  animation: slideMobile 12s steps(4) infinite;
+}
+
+.dynamic-text div p {
+  display: inline-block;
+  position: relative;
+}
+
+.dynamic-text div p::after {
+  content: '\003C';
+  color: #36f5bf;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #ffffff;
+  animation: typing 3s steps(10) infinite;
+}
+
+@media (min-width: 1024px) {
+  .hero__title {
+    max-width: 325px;
+    font-size: 4rem;
+    line-height: 75px;
+  }
+
+  .hero__title .dynamic-text {
+    height: 75px;
+  }
+
+  .dynamic-text div {
+    animation: slideDesktop 12s steps(4) infinite;
+  }
+}
+
+@keyframes slideMobile {
+  100% {
+    top: -192px;
+  }
+}
+
+@keyframes slideDesktop {
+  100% {
+    top: -300px;
+  }
+}
+
+@keyframes typing {
+  40%,
+  60% {
+    left: calc(100% + 5px);
+  }
+  100% {
+    left: 0;
+  }
+}

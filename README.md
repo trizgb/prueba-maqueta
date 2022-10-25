@@ -15,11 +15,27 @@ Para este reto, se han usado las siguientes tecnologías:
 
 ## Parte primera de la prueba: estimación
 
-- Layout / Responsive
-- Componentes / Responsive
-- Animaciones / Complejidad de cada una
-- Funcionalidad
-- Entrega
+Para estimar cuánto conllevaría el desarrollo de la landing page que contiene este hero, habría que tener en cuenta en primer lugar que elementos componen la página, si existen animaciones y la complejidad de éstas, así como la complejidad de la interacción que requiera la página.
+Además, habría que tener en cuenta el uso de cookies y el posicionamiento SEO.
+Y antes de todo ello, saber qué tecnologías se usarán para el desarrollo.
+
+Por ello, cada bloque se estimaría, en la parte de desarrollo, a través de puntos de esfuerzo siendo el de menor rango un componente "tonto" y que no lleve interacción o animaciones y el de mayor puntuación aquel que es más complejo.
+
+Así, teniendo en cuenta que la página contiene Header, Hero, Sections (Quiénes somos, Servicios, Equipo, Newsletter, Contacto), Footer, Layout de la página y unas animaciones no descabelladas:
+
+- Header 3p
+- Hero 5p
+- Quienes Somos 8p
+- Servicios 8p
+- Equipo 8p
+- Newsletter 3p
+- Contacto 2p
+- Footer 1p
+- Layout 3p
+
+Total = 41p
+
+Al cliente, se le explicaría todo lo que va a contener su web, y en tiempo estimado se le daría una aproximación (exclusivamente de la maqueta, sin contar subida a prod, etc) de 5 días.
 
 ## Parte segunda de la prueba: maqueta
 
